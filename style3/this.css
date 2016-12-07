@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.sti { position: relative; }
+
+.sti .sti-share-box {
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	width: 38px;
+	z-index: 999;
+	display: none;
+	
+        
+	
+	-webkit-box-shadow: #ccc 0px 0px 3px 0px;
+	-moz-box-shadow: #ccc 0px 0px 3px 0px;
+	box-shadow: #ccc 0px 0px 3px 0px;
+}
+.sti .sti-share-box a {	
+	float: left;
+	display:block;
+	width: 61px;
+	height: 61px;
+	
+	text-indent: -9999em;
+		
+	
+	-webkit-transition: all 0s linear;
+	-moz-transition: all 0s linear;
+	-ms-transition: all 0s linear;
+	-o-transition: all 0s linear;
+	transition: all s linear;	
+}
+.sti .sti-share-box a:hover {
+	
+}
+
+.sti .sti-facebook-btn {background: transparent url('56/facebook.png') no-repeat; }
+.sti .sti-twitter-btn {background: transparent url('56/twitter.png') no-repeat; }
+.sti .sti-google-btn {background: transparent url('56/google.png') no-repeat;}
+.sti .sti-linkedin-btn {background: transparent url('56/linkedin.png') no-repeat; }
+.sti .sti-pinterest-btn {background: transparent url('56/pinterest.png') no-repeat;}
+.sti .sti-reddit-btn {background: transparent url('56/reddit.png') no-repeat; }
